@@ -17,7 +17,7 @@ public class MainClass {
         Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
         clipboard.setContents(stringSelection, null);
         UIManager.put("OptionPane.minimumSize",new Dimension(500,80));
-        JOptionPane.showMessageDialog(null, "Your HWID has been copied to the Clipboard." + System.lineSeparator() + "Your HWID: " + theHWID,"Basic HWID Grabber - Coded by Krypton", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null, "Your HWID has been copied to the Clipboard." + System.lineSeparator() + "Your HWID: " + theHWID,"DroidW4RE-HWID-Grabber", JOptionPane.INFORMATION_MESSAGE);
         System.exit(0);
     }
 }
